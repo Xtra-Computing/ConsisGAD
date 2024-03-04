@@ -1,5 +1,5 @@
 ## Introduction:
-This is the code for the ICLR 2024 paper: [Consistency Training with Learnable Data Augmentation for Graph Anomaly Detection with Limited Supervision.](https://openreview.net/forum?id=elMKXvhhQ9)
+This is the code for the ICLR 2024 paper of ConsisGAD: [Consistency Training with Learnable Data Augmentation for Graph Anomaly Detection with Limited Supervision.](https://openreview.net/forum?id=elMKXvhhQ9)
 
 In this work, we propose a novel framework, ConsisGAD, which is tailored for graph anomaly detection in scenarios characterized by limited supervision and is anchored in the principles of consistency training. Under limited supervision, ConsisGAD effectively leverages the abundance of unlabeled data for consistency training by incorporating a novel learnable data augmentation mechanism, thereby introducing controlled noise into the dataset. Moreover, ConsisGAD takes advantage of the variance in homophily distribution between normal and anomalous nodes to craft a simplified GNN backbone, enhancing its capability to effectively distinguish between these two classes. A brief overview of our framework is illustrated in the following picture.
 
