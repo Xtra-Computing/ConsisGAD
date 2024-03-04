@@ -13,6 +13,6 @@ def to_np(x):
 
 
 def store_model(my_model, args):
-    file_path = os.path.join('model-weights', 
-                            args['data-set'] + '-' + str(int(args['training-ratio'])) + '.pth')
+    file_path = os.path.join('model-weights',
+                             args['data-set'] + '.pth')
     torch.save(my_model.state_dict(), file_path)
